@@ -13,7 +13,7 @@ function Footer() {
                     </Col>
 
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was done with React.
+                        
                     </Col>
                 </Row>
             </Container>
