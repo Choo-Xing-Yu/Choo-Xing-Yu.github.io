@@ -61,8 +61,8 @@ class App extends React.Component {
           </NavBar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
-          <Route path="/" exact render={() => <AboutPage title={this.state.about.title}/>}/>
-          <Route path="/" exact render={() => <ContactPage title={this.state.contact.title}/>}/>
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}/>}/>
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>}/>
 
           <Footer />
 
