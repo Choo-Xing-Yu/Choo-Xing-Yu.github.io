@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from "../components/Hero";
+import Hero from "../components/Common/Hero";
 
-import AboutMeContent from "../components/AboutMeContent"
+import AboutMeContent from "../components/About/AboutMeContent"
 import profilepic from "../assets/images/profilepic.jpg";
 
 function AboutPage(props) {

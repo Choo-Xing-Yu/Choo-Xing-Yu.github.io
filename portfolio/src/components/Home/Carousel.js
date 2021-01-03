@@ -1,8 +1,8 @@
 import React from "react";
 
-import rsaf140 from "../assets/images/rsaf140.jpeg";
-import genuslogo from "../assets/images/genuslogo.png";
-import Card from "../components/Card";
+import rsaf140 from "../../assets/images/rsaf140.jpeg";
+import genuslogo from "../../assets/images/genuslogo.png";
+import Card from "./Card";
 import { Container, Row } from "react-bootstrap";
 
 class Carousel extends React.Component {

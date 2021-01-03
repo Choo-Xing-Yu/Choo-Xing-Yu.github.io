@@ -8,7 +8,7 @@ import './App.css';
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import Footer from "./components/Footer";
+import Footer from "./components/Common/Footer";
 
 class App extends React.Component {
 
