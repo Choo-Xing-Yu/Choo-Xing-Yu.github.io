@@ -19,7 +19,7 @@ class Carousel extends React.Component {
                     + "Written in Outsystems\n"
                     + "Sole Developer",
                     imgSrc: rsaf140,
-                    link: "link1",
+                    link: "https://drive.google.com/file/d/1Vl80g_2QjBE0EPw5XaokM6dbvzo9_kzP/view?usp=sharing",
                     selected: false
                 },
                 {
