@@ -10,9 +10,9 @@ function Hero(props) {
             <Container fluid={true}>
                 <Row className="justify-content-center">
                     <Col md={8} sm={12}>
-                        { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1> }
-                        { props.subtitle && <h3 className="display-4 font-weight-light">{props.subtitle}</h3> }
-                        { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
+                        { props.name && <h1 className="display-3 font-weight-bolder mt-2 text-center">{props.name}</h1> }
+                        { props.title && <h1 className="display-5 font-weight-bolder mt-2 text-center">{props.title}</h1> }
+                        { props.text && <h3 className="lead font-weight-light text-center">{props.text}</h3> }
                     </Col>
                 </Row>
             </Container>

@@ -6,8 +6,6 @@ import Nav from "react-bootstrap/Nav";
 import './App.css';
 
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Common/Footer";
 
 class App extends React.Component {
@@ -20,21 +18,12 @@ class App extends React.Component {
 
       headerLinks: [
         {title: "Home", path: "/"},
-        {title: "About", path: "/about"},
-        {title: "Contact", path: "/contact"},
       ],
 
       home: {
-        title: "Projects",
+        name: "Choo Xing Yu",
+        title: "PROJECTS",
         text: "Click on the images to find out more"
-      },
-
-      about: {
-        title: "About me"
-      },
-
-      contact: {
-        title: "Contact"
       },
 
     }
@@ -46,23 +35,17 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <NavBar className="border-bottom" bg="transparent" expand="lg">
-            <NavBar.Brand>
-              Choo Xing Yu
-            </NavBar.Brand>
+            <Nav>
+            <Link className="nav-link" to="/">Choo Xing Yu</Link>
+            </Nav>
             <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <NavBar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <a href="https://drive.google.com/drive/folders/1-IlwjxD2tS8383Pu8wKhB8TxqlcfpNyX?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
-          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title}/>}/>
-          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>}/>
-
+          <Route path="/" exact render={() => <HomePage name={this.state.home.name} title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
           <Footer />
 
         </Container>
