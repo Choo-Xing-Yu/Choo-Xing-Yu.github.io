@@ -17,14 +17,8 @@ class App extends React.Component {
       title: "Xing Yu",
 
       headerLinks: [
-        {title: "Home", path: "/"},
+        {title: "Home", path: ""},
       ],
-
-      home: {
-        name: "Choo Xing Yu",
-        title: "PROJECTS",
-        text: "Click on the images to find out more"
-      },
 
     }
   }
@@ -45,7 +39,7 @@ class App extends React.Component {
               </Nav>
             </NavBar.Collapse>
           </NavBar>
-          <Route path="/" exact render={() => <HomePage name={this.state.home.name} title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>}/>
+          <Route path="" exact render={() => <HomePage/>}/>
           <Footer />
 
         </Container>

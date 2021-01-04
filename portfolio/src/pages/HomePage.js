@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Hero from "../components/Common/Hero";
 import Carousel from "../components/Home/Carousel";
 import AboutPage from './AboutPage';
 
@@ -8,12 +7,15 @@ function HomePage(props) {
     return(
         <div>
             <div>
-                <Hero name={props.name}/>
+                <h1 className="display-3 font-weight-bolder mt-2 text-center">Choo Xing Yu</h1>
+                <br/>
                 <AboutPage/>
             </div>
 
             <div className="border-top">
-                <Hero  title={props.title} text={props.text}/>
+                <h1 className="display-5 font-weight-bolder mt-2 text-center">PROJECTS</h1>
+                <h3 className="lead font-weight-light text-center">Click on the images to find out more</h3>
+                <br/>
                 <Carousel/>
             </div>
         </div>
