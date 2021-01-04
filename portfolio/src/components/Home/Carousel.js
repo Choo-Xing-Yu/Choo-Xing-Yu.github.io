@@ -30,7 +30,7 @@ class Carousel extends React.Component {
                     + "Written in Java with Telegram and GoogleSheets API\n"
                     + "Sole Developer",
                     imgSrc: genuslogo,
-                    link: "https://docs.google.com/document/d/1JJDEA7rMCy2cc3Pwsxt2hTmgOo_4vtiRsymgigp9EWc/edit?usp=sharing",
+                    link: "https://docs.google.com/document/d/1EyZuCAC7-hACxoJMQ4gUxkjRNk-ghWW84qXmVOE_6rY/edit?usp=sharing",
                     selected: false
                 },
             ]
