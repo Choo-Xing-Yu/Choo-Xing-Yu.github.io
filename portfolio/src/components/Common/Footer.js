@@ -16,11 +16,11 @@ function Footer() {
                     </Col>
 
                     <Col md={3} sm={12}>
-                        <a href="http://t.me/tadrandomperson"><FaTelegramPlane size={30} className="mr-1"/>tadrandomperson</a>
+                        <a href="http://t.me/tadrandomperson" target="_blank" rel="noopener noreferrer"><FaTelegramPlane size={30} className="mr-1"/>tadrandomperson</a>
                     </Col>
 
                     <Col md={3} sm={12}>
-                        <a href="https://github.com/Choo-Xing-Yu"><FaGithub size={30} className="mr-1"/>Choo-Xing-Yu</a>
+                        <a href="https://github.com/Choo-Xing-Yu" target="_blank" rel="noopener noreferrer"><FaGithub size={30} className="mr-1"/>Choo-Xing-Yu</a>
                     </Col>
 
                     <Col md={3} sm={12}>
