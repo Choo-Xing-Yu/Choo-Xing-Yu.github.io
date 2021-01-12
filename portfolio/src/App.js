@@ -32,12 +32,9 @@ class App extends React.Component {
             <Nav>
             <Link className="nav-link" to="/">Choo Xing Yu</Link>
             </Nav>
-            <NavBar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <NavBar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <a href="https://drive.google.com/drive/folders/1-IlwjxD2tS8383Pu8wKhB8TxqlcfpNyX?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
-              </Nav>
-            </NavBar.Collapse>
+            <Nav className="ml-auto">
+              <a href="https://drive.google.com/drive/folders/1-IlwjxD2tS8383Pu8wKhB8TxqlcfpNyX?usp=sharing" target="_blank" rel="noopener noreferrer">My Resume</a>
+            </Nav>
           </NavBar>
           <Route path="" exact render={() => <HomePage/>}/>
           <Footer />
