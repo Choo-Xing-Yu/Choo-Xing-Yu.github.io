@@ -9,7 +9,9 @@ import { ProfileDescriptionComponent } from './body/profile/profile-description/
 import { ProfileComponent } from './body/profile/profile.component';
 import { ProjectComponent } from './body/project/project.component';
 import { ProjectDescriptionComponent } from './body/project/project-description/project-description.component';
-import { ProjectDropdownComponent } from './body/project/project-dropdown/project-dropdown.component';
+import { ProjectAccordionComponent } from './body/project/project-accordion/project-accordion.component';
+
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,9 +23,9 @@ import { ProjectDropdownComponent } from './body/project/project-dropdown/projec
     ProfileComponent,
     ProjectComponent,
     ProjectDescriptionComponent,
-    ProjectDropdownComponent,
+    ProjectAccordionComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
 })
