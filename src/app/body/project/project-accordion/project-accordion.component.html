@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-10">
+    <ngb-accordion activeIds="ngb-panel-0" [closeOthers]="true">
+      <ngb-panel class="project_panel" *ngFor="let project of projects">
+        <ng-template ngbPanelTitle>
+          <h5 class="project_title">{{ project.title }}</h5>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          <div class="row">
+            <div class="col-6">
+              <ul *ngFor="let content of project.contents">
+                <li class="project_content">{{ content }}</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <img
+                class="project_img img-fluid mx-auto d-block"
+                [src]="project.img_path"
+              />
+            </div>
+          </div>
+        </ng-template>
+      </ngb-panel>
+    </ngb-accordion>
+  </div>
+</div>

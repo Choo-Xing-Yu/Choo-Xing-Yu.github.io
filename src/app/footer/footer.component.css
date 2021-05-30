@@ -1,0 +1,12 @@
+.footer {
+  background-color: #292929;
+  max-width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #888888;
+}

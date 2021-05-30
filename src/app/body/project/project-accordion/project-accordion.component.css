@@ -1,0 +1,16 @@
+.project_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #292929;
+  text-decoration: none;
+}
+
+.project_content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #888888;
+}
+
+.project_img {
+  max-width: 200px;
+}
