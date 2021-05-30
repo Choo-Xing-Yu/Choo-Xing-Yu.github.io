@@ -9,7 +9,7 @@ export class ProjectDescriptionComponent implements OnInit {
   tools: string[] = [
     'NodeJS',
     'Typescript',
-    'nestJS',
+    'NestJS',
     'mySQL',
     'TelegramAPI',
     'AngularJS',

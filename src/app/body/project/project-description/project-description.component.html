@@ -1,23 +1,19 @@
 <div class="row">
-  <div class="col-xs-offset-2 col-xs-4">
-    <h1 class="project_description_header">My Projects</h1>
-    <hr />
-  </div>
+  <h1 class="project_description_header">My Projects</h1>
+  <hr />
 </div>
 <div class="row">
-  <div class="col-xs-offset-2 col-xs-4">
-    <p class="tools">TOOLS</p>
-    <div class="row">
-      <div class="col-xs-6">
-        <p class="tool" *ngFor="let tool of generateColOne()">
-          {{ tool }}
-        </p>
-      </div>
-      <div class="col-xs-6">
-        <p class="tool" *ngFor="let tool of generateColTwo()">
-          {{ tool }}
-        </p>
-      </div>
+  <p class="tools">TOOLS</p>
+  <div class="row">
+    <div class="col-xs-6">
+      <p class="tool" *ngFor="let tool of generateColOne()">
+        {{ tool }}
+      </p>
+    </div>
+    <div class="col-xs-6">
+      <p class="tool" *ngFor="let tool of generateColTwo()">
+        {{ tool }}
+      </p>
     </div>
   </div>
 </div>
