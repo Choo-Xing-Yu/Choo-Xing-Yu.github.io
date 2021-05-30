@@ -12,6 +12,8 @@ import { ProjectDescriptionComponent } from './body/project/project-description/
 import { ProjectAccordionComponent } from './body/project/project-accordion/project-accordion.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactComponent } from './footer/contact/contact.component';
+import { IconsModule } from './icons/icons.module';
 
 @NgModule({
   declarations: [
@@ -24,8 +26,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ProjectComponent,
     ProjectDescriptionComponent,
     ProjectAccordionComponent,
+    ContactComponent,
   ],
-  imports: [BrowserModule, NgbModule],
+  imports: [BrowserModule, NgbModule, IconsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
