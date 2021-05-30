@@ -1,0 +1,10 @@
+<ngb-accordion activeIds="ngb-panel-0" [closeOthers]="true">
+  <ngb-panel *ngFor="let project of projects">
+    <ng-template ngbPanelTitle>
+      {{ project.title }}
+    </ng-template>
+    <ng-template ngbPanelContent>
+      {{ project.content }}
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>

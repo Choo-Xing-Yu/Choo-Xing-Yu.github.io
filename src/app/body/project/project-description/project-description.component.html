@@ -1,16 +1,18 @@
 <div class="row">
-  <h1 class="project_description_header">My Projects</h1>
-  <hr />
+  <div class="col-6">
+    <h1 class="project_description_header">My Projects</h1>
+    <hr />
+  </div>
 </div>
 <div class="row">
   <p class="tools">TOOLS</p>
   <div class="row">
-    <div class="col-xs-6">
+    <div class="col">
       <p class="tool" *ngFor="let tool of generateColOne()">
         {{ tool }}
       </p>
     </div>
-    <div class="col-xs-6">
+    <div class="col">
       <p class="tool" *ngFor="let tool of generateColTwo()">
         {{ tool }}
       </p>
