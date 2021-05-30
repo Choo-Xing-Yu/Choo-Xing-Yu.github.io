@@ -5,18 +5,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProfileDescriptionComponent } from './body/profile/profile-description/profile-description.component';
+import { ProfileComponent } from './body/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    ProfileDescriptionComponent,
+    ProfileComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
