@@ -3,4 +3,6 @@ export const google_links = {
     'https://docs.google.com/document/d/1EyZuCAC7-hACxoJMQ4gUxkjRNk-ghWW84qXmVOE_6rY/edit?usp=sharing',
   resume_url:
     'https://drive.google.com/drive/folders/1-IlwjxD2tS8383Pu8wKhB8TxqlcfpNyX?usp=sharing',
+  training_rsaf_url:
+    'https://drive.google.com/file/d/1Vl80g_2QjBE0EPw5XaokM6dbvzo9_kzP/view?usp=sharing',
 };
