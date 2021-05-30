@@ -7,6 +7,9 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProfileDescriptionComponent } from './body/profile/profile-description/profile-description.component';
 import { ProfileComponent } from './body/profile/profile.component';
+import { ProjectComponent } from './body/project/project.component';
+import { ProjectDescriptionComponent } from './body/project/project-description/project-description.component';
+import { ProjectDropdownComponent } from './body/project/project-dropdown/project-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { ProfileComponent } from './body/profile/profile.component';
     FooterComponent,
     ProfileDescriptionComponent,
     ProfileComponent,
+    ProjectComponent,
+    ProjectDescriptionComponent,
+    ProjectDropdownComponent,
   ],
   imports: [BrowserModule],
   providers: [],
