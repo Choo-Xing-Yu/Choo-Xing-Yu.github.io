@@ -1,11 +1,16 @@
-.panel-heading .accordion-toggle:after {
-  /* symbol for "opening" panels */
-  font-family: "Glyphicons Halflings"; /* essential for enabling glyphicon */
-  content: "\e114"; /* adjust as needed, taken from bootstrap.css */
-  float: right; /* adjust as needed */
-  color: grey; /* adjust as needed */
+.project_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #292929;
+  text-decoration: none;
 }
-.panel-heading .accordion-toggle.collapsed:after {
-  /* symbol for "collapsed" panels */
-  content: "\e080"; /* adjust as needed, taken from bootstrap.css */
+
+.project_content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #888888;
+}
+
+.project_img {
+  max-width: 200px;
 }
