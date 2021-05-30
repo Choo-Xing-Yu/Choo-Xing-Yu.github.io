@@ -21,9 +21,9 @@ export class ProjectAccordionComponent implements OnInit {
     {
       title: 'Training Mobile Application (RSAF)',
       contents: [
-        'Achieved Gold under TEA 2019 by Singapore Productivity Association.',
-        'Resulted in $74,802.84 annual savings for RSAF.',
-        'Written in Outsystems.',
+        'Achieved Gold under TEA 2019 by Singapore Productivity Association',
+        'Resulted in $74,802.84 annual savings for RSAF',
+        'Written in Outsystems',
         'Sole Developer',
       ],
       url: google_links.training_rsaf_url,
@@ -32,9 +32,9 @@ export class ProjectAccordionComponent implements OnInit {
     {
       title: 'NUS Guitar Ensemble Attendance Bot',
       contents: [
-        'Automated attendance taking of ~50 members.',
-        'Provides analytical report on attendance for Exco.',
-        'Written in Java with Telegram and GoogleSheets API.',
+        'Automated attendance taking of ~50 members',
+        'Provides analytical report on attendance for Exco',
+        'Written in Java with Telegram and GoogleSheets API',
         'Sole Developer',
       ],
       url: google_links.attendance_bot_url,
