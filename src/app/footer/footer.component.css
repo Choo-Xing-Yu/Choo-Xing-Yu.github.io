@@ -9,4 +9,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #888888;
+  margin-top: 10%;
+  padding-right: 3%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .copyright {
+    margin-bottom: 10%;
+  }
 }

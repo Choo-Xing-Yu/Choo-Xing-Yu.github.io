@@ -2,3 +2,26 @@
   max-width: 400px;
   border-radius: 50%;
 }
+
+.profile-description-container {
+  padding-left: 10%;
+  padding-top: 1%;
+}
+
+.profile-picture-container {
+  padding-right: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-picture {
+    max-width: 300px;
+  }
+  .profile-picture-container {
+    padding-right: 0%;
+    padding-left: 2%;
+  }
+  .profile-description-container {
+    padding-left: 5%;
+    padding-top: 1%;
+  }
+}

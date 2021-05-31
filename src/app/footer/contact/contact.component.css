@@ -14,3 +14,9 @@
 .icons {
   color: white;
 }
+
+@media only screen and (max-width: 1000px) {
+  .spacer {
+    margin-bottom: 10px;
+  }
+}

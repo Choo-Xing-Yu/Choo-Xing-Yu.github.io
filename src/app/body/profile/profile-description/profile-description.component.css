@@ -16,3 +16,9 @@
   font-weight: 600;
   color: #888888;
 }
+
+@media only screen and (max-width: 600px) {
+  .profile_content {
+    padding-right: 10%;
+  }
+}
