@@ -6,8 +6,9 @@
 
 .resume {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   color: #38a3ff;
+  text-decoration: none;
 }
 
 .navbar {
