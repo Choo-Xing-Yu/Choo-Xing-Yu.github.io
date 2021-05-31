@@ -8,9 +8,21 @@
         <ng-template ngbPanelContent>
           <div class="row">
             <div class="col-6">
-              <ul *ngFor="let content of project.contents">
-                <li class="project_content">{{ content }}</li>
+              <ul>
+                <li
+                  *ngFor="let content of project.contents"
+                  class="project_content"
+                >
+                  {{ content }}
+                </li>
               </ul>
+              <a
+                [href]="project.url"
+                class="project_url"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View More</a
+              >
             </div>
             <div class="col-6">
               <img

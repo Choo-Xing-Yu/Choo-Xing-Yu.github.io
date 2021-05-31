@@ -8,6 +8,15 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #888888;
+  margin-bottom: 10px;
+}
+
+.project_url {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #38a3ff;
+  text-decoration: none !important;
+  margin-left: 15px;
 }
 
 .project_img {
