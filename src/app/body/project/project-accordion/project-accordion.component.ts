@@ -24,7 +24,7 @@ export class ProjectAccordionComponent implements OnInit {
       title: 'Training Mobile Application (RSAF)',
       contents: [
         'Achieved Gold under TEA 2019 by Singapore Productivity Association',
-        'Resulted in $74,802.84 annual savings for RSAF',
+        'Resulted in $74,802.84SGD annual savings for RSAF',
         'Written in Outsystems',
         'Sole Developer',
       ],
