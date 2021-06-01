@@ -1,13 +1,21 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { Phone, Github, Mail } from 'angular-feather/icons';
+import {
+  Phone,
+  Github,
+  Mail,
+  ChevronUp,
+  ChevronDown,
+} from 'angular-feather/icons';
 
 // Select some icons (use an object, not an array)
 const icons = {
   Phone,
   Github,
   Mail,
+  ChevronUp,
+  ChevronDown,
 };
 
 @NgModule({

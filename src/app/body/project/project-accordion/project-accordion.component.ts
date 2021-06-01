@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { google_links } from '../../../google_links';
 const image_folder_dir = '../../../../assets/images/';
 
@@ -6,6 +6,7 @@ const image_folder_dir = '../../../../assets/images/';
   selector: 'app-project-accordion',
   templateUrl: './project-accordion.component.html',
   styleUrls: ['./project-accordion.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class ProjectAccordionComponent implements OnInit {
   constructor() {}
@@ -17,6 +18,7 @@ export class ProjectAccordionComponent implements OnInit {
     contents: Array<string>;
     url: string;
     img_path: string;
+    is_shown: boolean;
   }[] = [
     {
       title: 'Training Mobile Application (RSAF)',
@@ -28,6 +30,7 @@ export class ProjectAccordionComponent implements OnInit {
       ],
       url: google_links.training_rsaf_url,
       img_path: image_folder_dir + 'rsaf140.jpeg',
+      is_shown: true,
     },
     {
       title: 'NUS Guitar Ensemble Attendance Bot',
@@ -39,6 +42,7 @@ export class ProjectAccordionComponent implements OnInit {
       ],
       url: google_links.attendance_bot_url,
       img_path: image_folder_dir + 'genuslogo.png',
+      is_shown: false,
     },
   ];
 }

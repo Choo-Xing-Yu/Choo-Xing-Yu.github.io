@@ -2,8 +2,22 @@
   <div class="col-lg-10 col-sm-12">
     <ngb-accordion activeIds="ngb-panel-0" [closeOthers]="true">
       <ngb-panel class="project_panel" *ngFor="let project of projects">
-        <ng-template ngbPanelTitle>
+        <!-- <ng-template ngbPanelTitle>
           <h5 class="project_title">{{ project.title }}</h5>
+        </ng-template>
+       -->
+        <ng-template ngbPanelTitle>
+          <div
+            class="d-flex align-items-center justify-content-between"
+            (click)="project.is_shown = !project.is_shown"
+          >
+            <h5 class="project_title">{{ project.title }}</h5>
+            <i-feather name="chevron-up" *ngIf="project.is_shown"></i-feather>
+            <i-feather
+              name="chevron-down"
+              *ngIf="!project.is_shown"
+            ></i-feather>
+          </div>
         </ng-template>
         <ng-template ngbPanelContent>
           <div class="row">
