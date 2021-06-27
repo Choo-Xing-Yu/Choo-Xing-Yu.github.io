@@ -4,5 +4,5 @@ export const google_links = {
   resume_url:
     'https://drive.google.com/drive/folders/1-IlwjxD2tS8383Pu8wKhB8TxqlcfpNyX?usp=sharing',
   training_rsaf_url:
-    'https://drive.google.com/file/d/1Vl80g_2QjBE0EPw5XaokM6dbvzo9_kzP/view?usp=sharing',
+    'https://drive.google.com/drive/folders/1AC7xxQ97ExFeJ0yPAhgP4Psw0D_ezkSy?usp=sharing',
 };
