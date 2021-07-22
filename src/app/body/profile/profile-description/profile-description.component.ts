@@ -10,4 +10,7 @@ export class ProfileDescriptionComponent {
   getAttendanceBotLink() {
     return google_links.attendance_bot_url;
   }
+  getBassSLLink() {
+    return google_links.bass_sl_url;
+  }
 }
