@@ -33,6 +33,18 @@ export class ProjectAccordionComponent implements OnInit {
       is_shown: true,
     },
     {
+      title: 'Tipsy Collective Customer Management System (CMS)',
+      contents: [
+        'Developed CMS and Mobile Application Backend',
+        'Migrated both Backend from ExpressJS to NestJS',
+        'Written in NodeJS and Typescript (NestJS)',
+        'Lead the Backend Development with 2 other Backend Developers',
+      ],
+      url: google_links.tipsy_url,
+      img_path: image_folder_dir + 'tipc.jpg',
+      is_shown: false,
+    },
+    {
       title: 'NUS Guitar Ensemble Attendance Bot',
       contents: [
         'Automated attendance taking of ~50 members',

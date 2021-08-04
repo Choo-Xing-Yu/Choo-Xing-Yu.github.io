@@ -6,4 +6,6 @@ export const google_links = {
   training_rsaf_url:
     'https://drive.google.com/drive/folders/1AC7xxQ97ExFeJ0yPAhgP4Psw0D_ezkSy?usp=sharing',
   bass_sl_url: 'https://www.instagram.com/p/CRoG_dclAEy/',
+  tipsy_url:
+    'https://drive.google.com/file/d/1pZMWHO4TLyssWj8lub-lF2q3WfTtyHOc/view?usp=sharing',
 };

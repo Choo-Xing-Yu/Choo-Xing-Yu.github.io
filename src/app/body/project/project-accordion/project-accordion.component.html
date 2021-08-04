@@ -31,6 +31,7 @@
                 </li>
               </ul>
               <a
+                *ngIf="project.url"
                 [href]="project.url"
                 class="project_url"
                 target="_blank"
