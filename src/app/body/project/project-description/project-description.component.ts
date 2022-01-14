@@ -8,17 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectDescriptionComponent implements OnInit {
   tools: string[] = [
     'NodeJS',
-    'Typescript',
+    'TypeScript',
     'NestJS',
-    'mySQL',
+    'MySQL',
     'TelegramAPI',
     'AngularJS',
-    'Outsystems',
+    'OutSystems',
+    'AWS Certified Cloud Practitioner',
   ];
   tools_median: number;
 
   constructor() {
-    this.tools_median = Math.floor(this.tools.length / 2) + 1;
+    this.tools_median = Math.round(this.tools.length / 2);
   }
 
   ngOnInit(): void {}
